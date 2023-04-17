@@ -1,7 +1,9 @@
 function Hero() {
     return (
-        <div>
-            hero
+        <div className="flex flex-1 bg-black ">
+            <div>
+                hero
+            </div>
         </div>
     )
 }
