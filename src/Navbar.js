@@ -1,3 +1,4 @@
+import "./App.css";
 import sidebar from "./Sidebar";
 import {useState} from "react";
 
@@ -24,8 +25,8 @@ export function Navbar(props) {
                                 </svg>
                             </button>
                         </div>
-                        <div>
-                            <form className="flex items-center bg-button h-10">
+                        <div className="masthead h-10">
+                            <form className="items-center bg-button flex-1">
                                 <label htmlFor="simple-search" className="sr-only bg-button">Search</label>
                                 <div className="relative w-full bg-base">
                                     <div
