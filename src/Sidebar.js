@@ -1,13 +1,12 @@
 function Sidebar() {
     return (
-        <div className="fixed m-0 left-0 bottom-0 top-14  w-16 px-1 bg-other">
-            <div className="mt-1  flex flex-col ">
-                <div>123</div>
-                <div>123</div>
-                <div>123</div>
-                <div>123</div>
-                <div>123</div>
-            </div>
+        <div className="fixed side-menu text-white w-10 top-14 left-0 bottom-0">
+            <ul>
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+                <li><a href="#">Menu Item 4</a></li>
+            </ul>
         </div>
     )
 }

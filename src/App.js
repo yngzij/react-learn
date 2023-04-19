@@ -11,7 +11,6 @@ export default function App() {
     document.body.classList.add('bg-content');
 
     const toggleSidebar = () => {
-        console.log(isSidebarVisible)
         setSidebarVisible(!isSidebarVisible);
     }
 
@@ -19,7 +18,7 @@ export default function App() {
         <div>
             <Navbar toggleSidebar={toggleSidebar}/>
             {isSidebarVisible && <Sidebar/>}
-            <Hero/>
+            {<Hero/>}
         </div>
     )
 }

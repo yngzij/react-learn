@@ -1,0 +1,28 @@
+.side-menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    background-color: #fff;
+}
+
+.side-menu.show {
+    left: 0;
+}
+
+.toggle-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-menu:hover {
+    background-color: #444;
+}
+
