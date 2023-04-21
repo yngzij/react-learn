@@ -8,7 +8,9 @@ import {useState} from "react";
 
 export default function App() {
     const [isSidebarVisible, setSidebarVisible] = useState(true);
-    document.body.classList.add('bg-content');
+    // TODO - 糟糕的代码，需要重构
+    document.body.classList.add('dark:bg-content');
+    document.body.classList.add('bg-white');
 
     const toggleSidebar = () => {
         setSidebarVisible(!isSidebarVisible);
